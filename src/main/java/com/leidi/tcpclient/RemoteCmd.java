@@ -24,6 +24,7 @@ import java.net.Socket;
 public class RemoteCmd {
     static final String LOG_TAG = "td-lte";
 
+
     private static final int MSG_NEW_CTRL_INFO = 17; // Business Data Package
     private static final int MSG_SEND_CTRL_FAILED = 18; // Server Transfer Fail
     private static final int MSG_SEND_CTRL_OK = 19; // Server Transfer Success
